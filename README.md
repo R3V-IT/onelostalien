@@ -1036,3 +1036,31 @@
     </section>
     
     <!-- Diary Section -->
+            <!-- Lightbox for images -->
+            <div class="lightbox">
+                <span class="lightbox-close">&times;</span>
+                <img src="" alt="Enlarged Photo">
+                <div class="lightbox-caption">
+                    <h3 class="lightbox-title"></h3>
+                    <p class="lightbox-location"></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Admin Photo Upload Section (Requires Login) -->
+        <div class="container" style="margin-top: 3rem; text-align: center;">
+            <h3>Admin Photo Management</h3>
+            <p>Manage your photography collection through the secure admin panel.</p>
+            <div id="admin-login-container">
+                <button id="admin-login-btn" class="btn">Admin Login</button>
+            </div>
+            <div id="admin-photo-tools" style="display: none; margin-top: 1rem;">
+                <input type="file" id="photo-upload" accept="image/*" style="display: none;">
+                <button id="upload-photo-btn" class="btn">Upload New Photo</button>
+                <button id="manage-photos-btn" class="btn" style="margin-left: 1rem; background-color: var(--primary-color);">Manage Existing Photos</button>
+                <button id="admin-logout-btn" class="btn" style="margin-left: 1rem; background-color: #666;">Logout</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Diary Section -->
